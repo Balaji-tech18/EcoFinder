@@ -1,0 +1,39 @@
+/* src/pages/FavoritesPage.css */
+
+.favorites-container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column; /* Stack the heading, products, and message vertically */
+    align-items: center;
+  }
+  
+  .favorites-container h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px; /* Reduced margin for better spacing */
+    color: #2e7d32; /* You can customize this color */
+  }
+  
+  .favorites-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Added some gap between product cards */
+    margin-bottom: 20px; /* Space between product cards and the "no favorites" message */
+  }
+  
+  .favorites-container p {
+    font-size: 18px;
+    text-align: center;
+    color: #666;
+    margin-top: 20px; /* Added margin to create some space from products */
+  }
+  
+  /* Optional styling for empty state message */
+  .favorites-container .no-favorites-message {
+    font-size: 20px;
+    font-weight: bold;
+    color: #888;
+    margin-top: 20px;
+  }
+  

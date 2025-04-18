@@ -1,0 +1,35 @@
+/* src/pages/ProductFinder.css */
+.finder-container {
+    padding: 2rem;
+  }
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .product-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 200px;
+    text-decoration: none;
+    color: black;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+  }
+  .product-card:hover {
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.2);
+  }
+  .favorite-button {
+    background-color: #ffbf00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .favorite-button:hover {
+    background-color: #ffcc00;
+  }
+  

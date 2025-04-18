@@ -1,0 +1,64 @@
+/* src/components/ProductCard.css */
+.card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  .view-details-link {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  .view-details-link:hover {
+    text-decoration: underline;
+  }
+  
+  .heart-button {
+    font-size: 36px;
+    color: gray;
+    transition: color 0.3s ease;
+  }
+  
+  .heart-button:hover {
+    color: red;
+  }
+  .view-details-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .view-details-button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  
